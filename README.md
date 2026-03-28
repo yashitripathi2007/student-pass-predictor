@@ -1,20 +1,34 @@
- HEAD
-# Student Pass Predictor
+# 🎓 Student Pass Predictor
 
-Simple Machine Learning web app that predicts if a student will pass or fail their final exam.
+A simple Machine Learning web application that predicts whether a student will **pass or fail** their final exam.
 
-## Features Used
-- Study time per week
-- Past failures
-- Absences
-- Wants higher education
-- Internet at home
+## Features
+- Weekly study time
+- Past class failures  
+- Number of absences
+- Wants higher education? (Yes/No)
+- Internet access at home? (Yes/No)
 
-## How to Run
-1. Install requirements:
+## Technologies Used
+- Python
+- Pandas + Scikit-learn
+- Streamlit (for web interface)
+- Random Forest Classifier
+
+## How to Run Locally
+
+1. Clone the repository:
    ```bash
-   pip install pandas scikit-learn streamlit joblib
+   git clone https://github.com/yashitripathi2007/student-pass-predictor.git
+   cd student-pass-predictor
+2. Install dependencies:pip install pandas scikit-learn streamlit joblib
+3. Run the app:Bashstreamlit run app.py
 
-# student-pass-predictor
-Building a student grade predictor.
-d4c0c8f31db9fd7efd58c7cf79c62ca33aef529d
+Dataset
+UCI Student Performance Dataset (Portuguese subject)
+
+Accuracy
+Random Forest model achieved good accuracy on the test set.
+
+Made as a beginner ML project | March 2026
+text
